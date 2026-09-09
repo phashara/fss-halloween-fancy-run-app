@@ -1,0 +1,27 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // FSS Halloween Fancy Run 2026 collections
+    match /applicants/{applicantId} {
+      allow read, write: if true;
+    }
+    match /orders/{orderId} {
+      allow read, write: if true;
+    }
+    match /ghosts/{ghostId} {
+      allow read, write: if true;
+    }
+    match /settings/{settingId} {
+      allow read, write: if true;
+    }
+    match /audit_logs/{logId} {
+      allow read, write: if true;
+    }
+    match /size_chart/{sizeId} {
+      allow read, write: if true;
+    }
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

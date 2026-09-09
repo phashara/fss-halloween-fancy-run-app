@@ -1,0 +1,6 @@
+{
+  "name": "FSS Halloween Fancy Run 2026",
+  "description": "ระบบรับสมัครกิจกรรม FSS Halloween Fancy Run 2026: Thai Ghost Edition คณะสังคมศาสตร์ มหาวิทยาลัยนเรศวร — ลงทะเบียนฟรี สุ่มการ์ดผีไทย เช็กอินด้วย QR Code และสั่งซื้อเสื้อที่ระลึก",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
